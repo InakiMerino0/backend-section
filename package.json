@@ -1,0 +1,34 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InakiMerino0/backend-section.git"
+  },
+  "author": "Inaki Merino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InakiMerino0/backend-section/issues"
+  },
+  "homepage": "https://github.com/InakiMerino0/backend-section#readme",
+  "dependencies": {
+    "awilix": "^8.0.0",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "memory-cache": "^0.2.0",
+    "mongoose": "^7.0.1",
+    "swagger-ui-express": "^4.6.2"
+  }
+}
